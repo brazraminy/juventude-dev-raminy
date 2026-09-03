@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade — Escondendo Dados no HTML</title>
+</head>
+<body>
+
+  <h1>Cultos</h1>
+
+  <ul>
+     <li data-categoria="orixás" data-nome="categorias"> Exu,Ze pilintra, tranca rua </li>
+     <li data-categoria="deuses" data-nome= "afrodite, zeus, atena, poseidon"> afrodite, zeus, atena, poseidon </li>
+  </ul>
+
+  <script>
+    // Missão: use querySelector para encontrar um item da lista,
+    // depois use dataset para ler o valor de um atributo data-*
+    // e imprima no console com console.log.
+    // Exemplo de atributos disponíveis: data-genero e data-ano
+    const item = document.querySelector("li");
+    console.log(item.dataset.nome);
+  </script>
+<button aria-label="fechar janela">desgraça</button>
+<spam aria-hidden="true">😈​​</spam>
+<p>exuzinho</p>
+</body>
+</html>
