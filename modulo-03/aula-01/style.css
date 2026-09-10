@@ -1,0 +1,50 @@
+/* style.css */
+body {
+  background: #f4f7fb;
+  font-family: Arial;
+}
+.musica{
+  color: hsl(0, 0%, 100%);
+  background:lch(45.23% 69.35 51.36);
+  font-family:georgia;
+  font-size: 22px;
+  text-align: center;
+  width: 25%;
+  margin: 50px;
+  box-shadow: 0 0 20px oklch(59.796% 0.24255 28.965);
+boder-radius: 60px 60px 60px 60px
+}
+
+.games{
+  color:hsl(0, 0%, 100%);
+background: hsl(204, 81%, 48%);
+font-family:'Courier New';
+font-size: 20px;
+text-align:center;
+width: 25%;
+margin: 50px;
+box-shadow: 0 0 20px hsl(226, 93%, 48%)
+}
+
+.natureza{
+  color:oklch(100% 0.00011 271.152);
+background: lab(44.25% -48.43 43.23);
+font-family: Arial;
+font-size: 18px;
+text-align:center;
+width: 25%;
+margin: 50px;
+box-shadow: 0 0 20px rgb(28, 238, 9);}
+
+
+.natureza li{
+        color:lab(100% 0.01 -0.01);
+          background: #lab(44.25% -48.43 43.23); 
+         list-style-type: none;}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+      
