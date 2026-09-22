@@ -6,7 +6,7 @@
 }
 
 body {
-    background: lab(0.67% -0.8 0.57);
+    background: lch(99.54% 2.69 150.54);
     padding: 1.5rem;
 }
 
@@ -51,6 +51,7 @@ body {
     border-radius: 18px;
     box-shadow: 0 10 24px rgba(0, 0, 35);
 }
+
 .quarto-esquerdo {
     display: inline-block;
     vertical-align: top;
@@ -61,19 +62,52 @@ body {
     margin: .5% 1%;
     border: 2px solid hsl(245, 40%, 54%) (255, 255, 255, .12);
 }
- .quarto0{
-    display:inline-block;
+
+.quarto0 {
+    display: inline-block;
     width: 50%;
     min-heigth: 5vh;
 
 
- }
-.quarto1{
+}
+
+.quarto1 {
     text-align: right;
     width: 60%;
     min-height: 11vh;
     background: linear-gradient(135deg, #ffffff, lch(65.65% 1.35 144.54)6% 7%);
     border-radius: 15px;
-    margin:  3%;
+    margin: 3%;
     border: 2px solid hsl(245, 40%, 54%) (255, 255, 255, .12);
+}
+
+.menu {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: hsl(250, 14%, 91%);
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #ff3d7f;
+    background: hsl(318, 78%, 18%);
+
+}
+
+.menu a: active {transform: translateY(1px);}
+.menu a: focus-visible {outline: 2px solid #ffc857;
+    outline: 3px;
+    border-radius: 4px;
 }
