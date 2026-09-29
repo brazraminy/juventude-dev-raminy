@@ -107,9 +107,13 @@ body {
 
 }
 
-.menu a: active {transform: translateY(1px);}
-.menu a: focus-visible {outline: 2px solid #ffc857;
-    outline: 3px;
+.menu a:active {
+    transform: translateY(1px);
+}
+
+.menu a:focus-visible {
+    outline: 2px solid #ffc857;
+    outline-offset: 3px;
     border-radius: 4px;
 }
 
